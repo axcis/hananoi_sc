@@ -1,0 +1,718 @@
+body{
+	line-height: 1.2;
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+	-webkit-text-size-adjust:100%;
+	font-size: 14px;
+	color: #444444;
+	width: 100%;
+}
+
+input,
+textarea,
+select{
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+	-webkit-text-size-adjust:100%;
+    border-radius: 0;
+}
+
+input[type="text"],
+input[type="submit"],
+input[type="button"],
+select{
+-webkit-appearance: none;
+-moz-appearance: none;
+appearance: none;
+}
+
+#mv{
+	width:100%;
+	height: 200px;
+}
+
+#mv li:nth-child(odd),
+#mv li:nth-child(even){
+	line-height: 200px;
+	font-size: 160%;
+}
+
+#event{
+	font-size: 100%;
+}
+
+#event p{
+	width: 250px;
+	border: solid 8px #FFF333;
+}
+
+.p120{
+	font-size: 130%;
+}
+
+.p150{
+	font-size: 160%;
+	font-weight: bold;
+}
+
+#title-box{
+	width: 98%;
+	height: 90px;
+}
+
+#site-title{
+	float: none;
+	text-align: center;
+}
+
+nav{
+	display: none;
+}
+
+#representative-img img{
+	width: 100px;
+}
+
+#representative-img{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#representative-msg {
+	width: 90%;
+	padding: 1.5em;
+}
+
+#representative-p {
+    float: none;
+    display: inline-block;
+    margin: 1em 0 0 0;
+    padding: 2em;
+    width: 100%;
+    height: auto;
+    color: #555;
+    /* background: #FDF2F2; */
+    background: #FCFCEC;
+    box-sizing: border-box;
+}
+
+#about{
+	padding: 1em 0 4em;
+}
+
+.front-nav{
+	width: 310px;
+	margin: 0 auto;
+}
+
+.front-nav li{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	margin-right: 5px;
+	font-size: 150%;
+}
+
+.front-nav li span{
+	top: 100%;
+	left: 0;
+	right: 0;
+	bottom: -5px;
+	margin: auto;
+	font-size:12px;
+}
+
+h2{
+	font-size: 110%;
+}
+
+h2 span{
+	font-size: 200%;
+}
+
+#now-contents{
+	width: 100%;
+}
+
+#past-blog{
+	position: relative;
+	width: 100%;
+	float: none;
+	text-align: center;
+}
+
+#past-blog img{
+	width: 90%;
+}
+
+#blog-title{
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background: #FFFFEF;
+	padding: 1em 0;
+	border: solid 8px #854602;
+	font-weight: bold;
+	text-align: center;
+}
+
+#fbBox{
+	position: relative;
+	width: 100%;
+	float: none;
+	margin: 0 0 50px 0;
+}
+
+.fb-page{
+	height: 215px;
+	width: 320px;
+	margin: 0 auto;
+	background: #000;
+}
+
+#fb-title{
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background: #FFFFD1;
+	padding: 1em 0;
+	border: solid 8px #FF2740;
+	font-weight: bold;
+	color: #FF2740;
+	font-size: 100%;
+	text-align: center;
+}
+
+#newspaper{
+	position: relative;
+	float: none;
+	height: 215px;
+	width: 100%;
+	text-align: center;
+	margin: 0 auto 70px;
+}
+
+#newspaper a{
+	width: 320px;
+	display: block;
+	color: #444;
+	margin: 0 auto;
+	background: #fff;
+}
+
+#newspaper-p{
+	font-family: 'Abril Fatface', cursive;
+	line-height: 200px;
+	font-size: 40px;
+}
+
+#newspaper-title{
+	display: block;
+	position: absolute;
+	bottom: -35px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	background: #EFFFD1;
+	padding: 1em .5em;
+	border: solid 8px #5DD12A;
+	font-weight: bold;
+	color: #52A93A;
+	z-index: 1;
+}
+
+#practice{
+	padding-bottom: 4em;
+}
+
+#practice-contents{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#practice-contents1-2{
+	margin-bottom: 1em;
+}
+
+.practice-sb01{
+	width: 100%;
+	float: none;
+	padding: 1em;
+	border: 4px dotted #FDEF0F;
+	margin: 0 0 1em 0;
+}
+
+.practice-sbt{
+	font-size: 110%;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+#practice dt{
+	color: #3AAA03;
+	margin-bottom: 5px;
+	font-size: 100%;
+}
+
+.practice-sb01 dl p{
+	font-weight: normal;
+	font-size: 90%;
+}
+
+.practice-sb02{
+	width: 100%;
+	float: none;
+	padding: 1em;
+	border: 4px dotted #0195DA;
+}
+
+.practice-sb02 dd li{
+	float: left;
+	margin: 0 2% 2% 0;
+}
+
+.practice-sb02 .attention{
+	color: #E90909;
+	margin-bottom: 2%;
+}
+
+.practice-sb03{
+	position: relative;
+	width: 100%;
+	padding: 1em;
+	border: 4px dotted #FF2740;
+}
+
+.practice-sb03 li{
+	font-weight: bold;
+	margin: 0 2% .5em 0;
+	float: left;
+}
+
+#kids01{
+	display: none;
+}
+
+.coach-hmsg{
+	text-align: center;
+	font-size: 110%;
+	margin-bottom: 30px;
+}
+
+#coach-contents{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#coach dl{
+	position: relative;
+	background: #fff;
+	width: 48%;
+	float: left;
+	margin: 0 4% 4% 0;
+	padding: 1em;
+	box-sizing: border-box;
+}
+
+#coach dl:nth-of-type(2n){
+	margin-right: 0;
+}
+
+#coach dl dt{
+	position: relative;
+	top: 0;
+	left: 0;
+	margin-bottom: 10px;
+	display: block;
+	padding: .5em;
+	background: #fff200;
+	text-align: center;
+}
+
+#coach dl dd{
+	float: none;
+	width: 100%;
+}
+
+#coach dl .coach-img{
+	width: 100px;
+	margin: 0 auto 10px;
+}
+
+.coach-name{
+	font-size: 120%;
+	border-bottom:solid 3px #fff200;
+	margin-bottom: 5px;
+}
+
+#coach dl dd ul li{
+	float: left;
+	margin-right: 5px;
+	font-size: 80%;
+}
+
+#coach dl dd ul{
+	border-bottom:solid 3px #fff200;
+	margin-bottom: 5px;
+}
+
+#contact{
+	background: url(../_image/topic-back.gif);
+	padding-bottom: 6em;
+}
+
+.contact-msg{
+	text-align: center;
+	font-size: 100%;
+	margin-bottom: 2em;
+}
+
+#contact form{
+	width: 90%;
+	margin: 0 auto;
+}
+
+#contact dl{
+	width: 100%;
+}
+
+#contact dt{
+	display: inline-block;
+	margin-bottom: 10px;
+	background: #515151;
+	color: #fff;
+	height: 20px;
+    line-height: 20px;
+    padding: 5px 10px;
+}
+
+#contact dd{
+	margin-bottom: 20px;
+	width: 100%;
+}
+
+#contact input[type="text"]{
+	width: 100%;
+	height: 45px;
+    line-height: 45px;
+    padding: 5px;
+    outline: 0;
+	border: solid 1px #ccc;
+	box-sizing: border-box;
+}
+
+#contact textarea{
+	width: 100%;
+	padding: 5px;
+	outline: 0;
+	border: solid 1px #ccc;
+	box-sizing: border-box;
+}
+
+#contact input[type="text"]:focus,
+#contact textarea:focus{
+	outline: 0;
+	border: solid 1px #D8FAFF;
+}
+
+#contact button {
+    display: inline-block;
+    width: 280px;
+    height: 50px;
+    list-style: 60px;
+    background: #FF2740;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+   	font-family: Lato, "游ゴシック Medium", "游ゴシック体", "Yu Gothic Medium", YuGothic, "ヒラギノ角ゴ ProN", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+   	font-weight: bold;
+}
+
+#entry-btn{
+	text-align: center;
+}
+
+#newmem-contents{
+	position: relative;
+	padding-bottom: 6em;
+}
+
+#new-member01{
+	background: #0566C0;
+	padding-bottom: 3.5em;
+}
+
+#new-member01-img{
+		position: relative;
+		width: 100%;
+		margin: 0 auto;
+}
+
+#new-member01 img{
+	width: 100%;
+	max-width: 800px;
+}
+
+.nemem-hmsg{
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+.nemem-hmsg p{
+	padding: 0 .5em 1em;
+	font-size: 110%;
+}
+
+.new-mem-msg01{
+	padding: 2em 1em 0;
+}
+
+.new-mem-msg01 p{
+	width: 100%;
+	margin: 1em auto;
+	padding: 1em;
+	box-sizing: border-box;
+	color: #fff;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1.8;
+	border: 4px dotted #FDEF0F;
+}
+
+.new-mem-msg01 p a{
+	display: inline-block;
+	color: #fff;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+.new-mem-msg02{
+	background: rgba(255,255,255,0.9);
+	width: 80%;
+	margin: 0 auto;
+	padding: 1em;
+}
+
+.new-mem-msg02 a{
+	display: inline-block;
+	color: #444;
+	text-decoration: underline;
+	margin: 0 5px;
+}
+
+.new-mem-msg02 dt{
+    display: inline-block;
+    padding: .2em .5em;
+    background: #fff200;
+    margin-bottom: 5px;
+}
+
+#new-mem-contact{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 50px;
+	margin: auto;
+	width: 280px;
+	background: #fff200;
+}
+
+#new-mem-contact a{
+	display: block;
+	color: #0566C0;
+	font-size: 120%;
+	padding: 1em 1em .5em;
+	text-align: center;
+}
+
+#new-mem-contact:after{
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  margin: auto;
+  border-style: solid;
+  border-color: #fff200 transparent transparent transparent;
+  border-width: 50px 140px 0 140px;
+}
+
+footer{
+	background: #000;
+	color: #fff;
+	text-align: center;
+	padding: 2em 0 10em;
+	font-weight: normal;
+	font-size: 80%;
+}
+
+#pageTop a{
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+}
+
+#pageTop:before {
+    top: -20px;
+    border-width: 0 40px 20px 40px;
+}
+
+#menuNav{
+    display: block;
+    z-index: 9999;
+    background: #21A4FF;
+    width: 80px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 140%;
+	font-family: 'Abril Fatface', cursive;
+	color: #fff;
+}
+
+#menuNav:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    bottom: -20px;
+    left: 0;
+    width: 0px;
+    height: 0px;
+    margin: auto;
+    border-style: solid;
+    border-color: #21A4FF transparent transparent transparent;
+    border-width: 20px 40px 0 40px;
+}
+
+#menuNav {
+    position: fixed;
+    bottom: 110px;
+    right: 10px;
+}
+
+#overlay{
+	overflow: auto;
+    display: none;
+    width: 100%;
+    height:100vh;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    background: rgba(255,255,255,0.9);
+}
+
+#close{
+	width: 100%;
+	box-sizing: border-box;
+	z-index: 1;
+	position: fixed;
+    background: #ccc;
+	padding: 1.2em 1em;
+    cursor: pointer;
+	color: #222222;
+	font-family: 'Abril Fatface', cursive;
+}
+
+#overlay ul{
+	padding-top: 6em;
+	width: 240px;
+	margin: 0 auto;
+	border-top: solid 1px #444444;
+}
+#overlay ul li{
+	position: relative;
+	background: url(../_image/back-ball.png);
+	background-size: cover;
+	width: 100px;
+	float: left;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 40px 40px 0;
+	font-size: 140%;
+}
+
+#overlay ul li span{
+	position: absolute;
+	bottom: -5px;
+	right: 0;
+	left: 0;
+	margin: auto;
+	font-size: 12px;
+	line-height: 1.4;
+	width: 100px;
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Hiragino Kaku Gothic ProN', '游ゴシック Medium', 'メイリオ', meiryo, sans-serif;
+	background: #444;
+	color: #fff;
+	padding: 5px 0;
+}
+
+#overlay ul li:nth-child(2n){
+	margin-right: 0;
+}
+
+#overlay ul li a{
+	display: block;
+	color: #444;
+	font-family: 'Abril Fatface', cursive;
+}
+#overlay ul li a:hover{
+	color: #aaaaaa;
+}
+
+/* #overlay ul{
+	padding-top: 3.4em;
+	width: 100%;
+	border-top: solid 1px #444444;
+}
+#overlay ul li{
+	position: relative;
+	border-bottom: solid 1px #444444;
+	font-size: 90%;
+}
+#overlay ul li::after {
+	display: block;
+	content: '';
+	position: absolute;
+	top: 45%;
+	right: 1em;
+	width: 6px;
+	height: 6px;
+	border-right: 1px solid #666;
+	border-bottom: 1px solid #666;
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+#overlay ul li a{
+	display: block;
+	padding: 1.2em 1em;
+	color: #ffffff;
+}
+#overlay ul li a:hover{
+	color: #aaaaaa;
+} */
+
+/* 調整用 */
+.br-as:after{
+	content: "\A";
+	white-space: pre ;
+}
+
+.br-bs:before{
+	content: "\A";
+	white-space: pre ;
+}
+
+/* お知らせ */
+#notice-contents {
+	width: 90%;
+}
