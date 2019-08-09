@@ -2,12 +2,18 @@
 	$notice_name = $_POST['notice_name'];
 	$notice_detail = $_POST['notice_detail'];
 	$published_date = $_POST['published_date'];
+	$password = $_POST['password'];
 	
 	if ($notice_name == '' || $notice_detail == '' || $published_date == '') {
 		header('Location: error.html');
 		return;
 	}
 	if (mb_strlen(trim($notice_name)) > 50) {
+		header('Location: error.html');
+		return;
+	}
+	
+	if ($password != 'admin0001') {
 		header('Location: error.html');
 		return;
 	}
