@@ -284,7 +284,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>幼・1・２年コーチ</dt>
+		<dt>1年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/mori-coach.png" alt="森コーチ"></dd>
 		<dd class="coach-name">森コーチ</dd>
 		<dd>
@@ -294,7 +294,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>幼・1・２年コーチ</dt>
+		<dt>6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/kakuta-coach.png" alt="角田コーチ"></dd>
 		<dd class="coach-name">角田コーチ</dd>
 		<dd>
@@ -304,7 +304,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>幼・1・２年コーチ</dt>
+		<dt>幼稚園コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/kanano-coach.png" alt="金野コーチ"></dd>
 		<dd class="coach-name">金野コーチ</dd>
 		<dd>
@@ -314,7 +314,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>３年コーチ</dt>
+		<dt>4・5年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/suzuki-coach.png" alt="鈴木コーチ"></dd>
 		<dd class="coach-name">鈴木コーチ</dd>
 		<dd>
@@ -324,7 +324,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>4年コーチ</dt>
+		<dt>2年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/kashiwagi-coach.png" alt="柏木コーチ"></dd>
 		<dd class="coach-name">柏木コーチ</dd>
 		<dd>
@@ -334,7 +334,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>コーチ</dt>
+		<dt>6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/anzai-coach.png" alt="安斎コーチ"></dd>
 		<dd class="coach-name">安斎コーチ</dd>
 		<dd>
@@ -344,7 +344,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>コーチ</dt>
+		<dt>幼・2年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/ogawa-coach.png" alt="小川コーチ"></dd>
 		<dd class="coach-name">小川コーチ</dd>
 		<dd>
@@ -354,7 +354,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>コーチ</dt>
+		<dt>2・6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/katase-coach.png" alt="片瀬コーチ"></dd>
 		<dd class="coach-name">片瀬コーチ</dd>
 		<dd>
@@ -364,7 +364,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>コーチ</dt>
+		<dt>4・5年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/maesaki-coach.png" alt="前崎コーチ"></dd>
 		<dd class="coach-name">前崎コーチ</dd>
 		<dd>
@@ -374,7 +374,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>コーチ</dt>
+		<dt>4年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/noda-coach.png" alt="野田コーチ"></dd>
 		<dd class="coach-name">野田コーチ</dd>
 		<dd>
