@@ -279,7 +279,6 @@
 			<ul class="cf">
 			<li>4級審判員</li>
 			<li>D級公認指導者</li>
-			<li>ライセンス</li>
 			</ul>
 		</dd>
 	</dl>
@@ -359,7 +358,7 @@
 		<dd class="coach-name">片瀬コーチ</dd>
 		<dd>
 			<ul class="cf">
-			<li>---</li>
+			<li>4級審判員</li>
 			</ul>
 		</dd>
 	</dl>
@@ -369,7 +368,7 @@
 		<dd class="coach-name">前崎コーチ</dd>
 		<dd>
 			<ul class="cf">
-			<li>---</li>
+			<li>4級審判員</li>
 			</ul>
 		</dd>
 	</dl>
@@ -379,7 +378,7 @@
 		<dd class="coach-name">野田コーチ</dd>
 		<dd>
 			<ul class="cf">
-			<li>---</li>
+			<li>4級審判員</li>
 			</ul>
 		</dd>
 	</dl>
