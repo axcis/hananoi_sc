@@ -1,4 +1,5 @@
 <?php
+	$id = $_POST['id'];
 	$notice_name = $_POST['notice_name'];
 	$notice_detail = $_POST['notice_detail'];
 	$published_date = $_POST['published_date'];
@@ -25,7 +26,13 @@
 		
 		$date = date('Y-m-d');
 		
-		$sql = "INSERT INTO notice (notice_name, notice_detail, regist_date, published_date) VALUES ('$notice_name', '$notice_detail', '$date', '$published_date');";
+		if ($id > 0) {
+			//update
+			$sql = "UPDATE notice SET notice_name = '$notice_name', notice_detail = '$notice_detail', published_date = '$published_date' WHERE id = $id;";
+		} else {
+			//insert
+			$sql = "INSERT INTO notice (notice_name, notice_detail, regist_date, published_date) VALUES ('$notice_name', '$notice_detail', '$date', '$published_date');";
+		}
 		
 		$result = $db->query($sql);
 		
