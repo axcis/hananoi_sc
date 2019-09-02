@@ -1,3 +1,36 @@
+<?php
+$id = $_GET['id'];
+
+$notice_name = "";
+$notice_detail = "";
+$published_date = "";
+
+if ($id > 0) {
+	//お知らせ取得
+	try {
+		//TODO: 環境に合わせて適宜変更する
+		$db = new PDO("mysql:host=localhost;dbname=hananoi", "root", "daw2ghuc");
+		$db->query("SET NAMES UTF8");
+		
+		$sql = "SELECT id, notice_name, notice_detail, published_date from notice";
+		$sql .= " WHERE id = '". $id. "'";
+		
+		$stmt = $db->query($sql);
+		$result = $stmt->fetch(PDO::FETCH_ASSOC);
+		
+		$notice_name = $result['notice_name'];
+		$notice_detail = $result['notice_detail'];
+		$published_date = $result['published_date'];
+		
+		$db = null;
+		
+	} catch (Exception $e) {
+		echo "接続失敗: " . $e->getMessage() . "\n";
+		exit();
+	}
+}
+?>
+
 <!DOCTYPE html>
 
 <html lang="ja">
@@ -106,13 +139,14 @@
 <div id="main-content">
 	<div class="event-list">
 		<form name="inputform" class="input" method="post" action="post.php">
+			<input type="hidden" name="id" value="<?php echo $id ?>">
 			<dl>
 				<dt>タイトル<span class="req">必須</span> ※全角50文字以内</dt>
-				<dd><input type="text" name="notice_name" size="50" value=""></dd>
+				<dd><input type="text" name="notice_name" size="50" value="<?php echo $notice_name ?>"></dd>
 				<dt>詳細<span class="req">必須</span></dt>
-				<dd><textarea name="notice_detail" cols=80 rows=10 /></textarea></dd>
+				<dd><textarea name="notice_detail" cols=80 rows=10 /><?php echo $notice_detail ?></textarea></dd>
 				<dt>期間<span class="req">必須</span></dt>
-				<dd><input class="datepicker" type="text" name="published_date" readonly></dd>
+				<dd><input class="datepicker" type="text" name="published_date" readonly value="<?php echo $published_date ?>"></dd>
 				<dt>認証パスワード<span class="req">必須</span></dt>
 				<dd><input type="password" name="password" size="50" value=""></dd>
 			</dl>
