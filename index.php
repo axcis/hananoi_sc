@@ -272,7 +272,7 @@
 一緒に楽しく練習しよう！</p>
 <div id="coach-contents" class="cf">
 	<dl class="cf">
-		<dt>ヘッド・3年コーチ</dt>
+		<dt>ヘッドコーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/nogawa-coach.png" alt="野川コーチ"></dd>
 		<dd class="coach-name">野川コーチ</dd>
 		<dd>
@@ -294,7 +294,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>6年コーチ</dt>
+		<dt>5・6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/kakuta-coach.png" alt="角田コーチ"></dd>
 		<dd class="coach-name">角田コーチ</dd>
 		<dd>
@@ -334,7 +334,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>6年コーチ</dt>
+		<dt>5・6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/anzai-coach.png" alt="安斎コーチ"></dd>
 		<dd class="coach-name">安斎コーチ</dd>
 		<dd>
@@ -354,7 +354,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>2・6年コーチ</dt>
+		<dt>2・5・6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/katase-coach.png" alt="片瀬コーチ"></dd>
 		<dd class="coach-name">片瀬コーチ</dd>
 		<dd>
@@ -364,7 +364,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>4・5年コーチ</dt>
+		<dt>3・4・5年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/maesaki-coach.png" alt="前崎コーチ"></dd>
 		<dd class="coach-name">前崎コーチ</dd>
 		<dd>
@@ -374,7 +374,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>4年コーチ</dt>
+		<dt>3・4年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/noda-coach.png" alt="野田コーチ"></dd>
 		<dd class="coach-name">野田コーチ</dd>
 		<dd>
