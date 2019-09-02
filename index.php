@@ -354,7 +354,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>2・6年コーチ</dt>
+		<dt>2・5・6年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/katase-coach.png" alt="片瀬コーチ"></dd>
 		<dd class="coach-name">片瀬コーチ</dd>
 		<dd>
@@ -364,7 +364,7 @@
 		</dd>
 	</dl>
 	<dl class="cf">
-		<dt>3・4年コーチ</dt>
+		<dt>3・4・5年コーチ</dt>
 		<dd class="coach-img"><img src="_image/coach/maesaki-coach.png" alt="前崎コーチ"></dd>
 		<dd class="coach-name">前崎コーチ</dd>
 		<dd>
