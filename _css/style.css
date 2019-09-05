@@ -462,9 +462,37 @@ h2 span{
 	width: 980px;
 	padding: 2em;
 	border: 4px dotted #FF2740;
+	margin-bottom: 80px;
 }
 
 .practice-sb03 li{
+	font-weight: bold;
+	margin: 0 2% .5em 0;
+	float: left;
+}
+
+.practice-sb04{
+	position: relative;
+	width: 980px;
+	padding: 2em;
+	border: 4px dotted #008000;
+	margin-bottom: 80px;
+}
+
+.practice-sb04 li{
+	font-weight: bold;
+	margin: 0 2% .5em 0;
+	float: left;
+}
+
+.practice-sb05{
+	position: relative;
+	width: 980px;
+	padding: 2em;
+	border: 4px dotted #808080;
+}
+
+.practice-sb05 li{
 	font-weight: bold;
 	margin: 0 2% .5em 0;
 	float: left;
