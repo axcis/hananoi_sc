@@ -17,6 +17,7 @@
 	<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="_js/functions.js"></script>
 	<script type="text/javascript" src="_js/jquery.bxslider.js"></script>
+	<script type="text/javascript" src="_js/jquery.validate.min.js"></script>
 	<script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
@@ -444,23 +445,23 @@
 <div id="contact" class="contents-part cf">
 <h2><span>Contact</span> / お問い合せ</h2>
 <div id="contact-contents">
-<!-- 	<p class="contact-msg">花野井サッカークラブに関するご質問や<br>
-<span class="br-as">ご相談等のお問い合せは</span>下記のフォームからお送り下さい。</p> -->
-	<p class="contact-msg">お問い合せフォームはただいま準備中です。<br>
-	少々お待ちください。</p>
-<!-- 	<form action="sendmail.php" method="post">
+<p class="contact-msg">花野井サッカークラブに関するご質問や<br>
+<span class="br-as">ご相談等のお問い合せは</span>下記のフォームからお送り下さい。</p>
+	<!--<p class="contact-msg">お問い合せフォームはただいま準備中です。<br>
+	少々お待ちください。</p> -->
+<form action="sendmail.php" method="post">
 <dl>
 	<dt>お名前</dt>
-	<dd><input type="text"></dd>
+	<dd><input type="text" name="name"></dd>
 	<dt>メールアドレス</dt>
-	<dd><input type="text"></dd>
+	<dd><input type="text" name="email"></dd>
 	<dt>お問い合せ内容</dt>
-	<dd><textarea name="" id="" cols="30" rows="10"></textarea></dd>
+	<dd><textarea name="comment" id="" cols="30" rows="10"></textarea></dd>
 </dl>
 <div id="entry-btn">
 <button type="submit">送信</button>
 </div>
-</form> -->
+</form>
 </div>
 </div>
 <footer><p><small>Copyright (c) 花野井サッカークラブ All Rights Reserved.</small></p></footer>
