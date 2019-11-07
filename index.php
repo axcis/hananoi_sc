@@ -453,6 +453,8 @@
 <dl>
 	<dt>お名前</dt>
 	<dd><input type="text" name="name"></dd>
+	<dt>電話番号</dt>
+	<dd><input type="text" name="tel"></dd>
 	<dt>メールアドレス</dt>
 	<dd><input type="text" name="email"></dd>
 	<dt>お問い合せ内容</dt>

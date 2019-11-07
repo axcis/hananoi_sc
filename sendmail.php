@@ -2,6 +2,7 @@
 session_start();
 
 $name = $_POST['name'];
+$tel = $_POST['tel'];
 $email = $_POST['email'];
 $comment = $_POST['comment'];
 
@@ -27,6 +28,7 @@ $body =<<<MAILBODY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 【お名前】：{$name}　様
+【電話番号】：{$tel}
 【Eメール】：{$email}
 
 【お問い合わせ内容】
