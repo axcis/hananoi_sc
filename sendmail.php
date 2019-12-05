@@ -15,9 +15,9 @@ $body2 = '';
 $entry_time = date("Y/m/d H:i:s");
 $subject = "ホームページより、お問い合わせがありました";
 $subject2 = "お問い合わせを受け付けました。";
-$to = "hs.sf88me.ey@gmail.com,infomail_2011@yahoo.co.jp";
+$to = "hs.sf88me.ey@gmail.com,infomail_2011@yahoo.co.jp,hananoi_soccer@mbox.re";
 $from = "info@hananoi-sc.jp";
-$header = "From:" .mb_encode_mimeheader("お問い合わせの受付") ."<$email>";
+$header = "From:" .mb_encode_mimeheader("お問い合わせの受付") ."<$from>";
 $header2 = "From:" .mb_encode_mimeheader("花野井サッカークラブ") ."<$from>";
 
 $body =<<<MAILBODY
@@ -52,7 +52,7 @@ MAILBODY;
 //運営事務局宛メール送信処理
 //お客様宛メール送信処理
 if(isset($email)){
-	$mail_result1 = mb_send_mail($to,$subject,$body,$header,"-f$email");
+	$mail_result1 = mb_send_mail($to,$subject,$body,$header,"-f$from");
 	$mail_result2 = mb_send_mail($email,$subject2,$body2,$header2,"-f$from");
 }
 
